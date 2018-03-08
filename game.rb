@@ -16,6 +16,7 @@ class Game
       handle_guess(code)
       break if code == @secret_code
     end
+    render
     game_over
   end
   private
