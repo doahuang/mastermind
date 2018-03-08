@@ -46,7 +46,7 @@ class Game
   end
   def game_over
     code = @secret_code.pegs.join
-    puts "game over! the code is \"#{code}\""
+    puts "game over, the code is \"#{code}\"!"
   end
 end
 
